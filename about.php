@@ -15,7 +15,7 @@ $about="Мне нравится программировать";
     </head>
     <body>
   <h1>Персональные данные</h1>
-        <table border="2" >
+<table border="2" >
   <tr>
     <td>Имя</td>
     <td align="right"><?php echo $name;?></td>
@@ -26,8 +26,7 @@ $about="Мне нравится программировать";
   </tr>
   <tr>
     <td>E-mail</td>
-    <td align="right"><?php echo "<a href='mailto:aaaaalex2000@gmail.com'>aaaaalex2000@gmail.com </a>";?>
-    </td>
+    <td align="right"><?php echo "<a href='mailto:$post'> $post </a>";?></td>
   </tr>
   <tr>
     <td>Город</td>
